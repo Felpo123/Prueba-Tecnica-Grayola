@@ -1,33 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Management Web Application
 
-## Getting Started
+This repository contains the code for a technical test for Crayola. The task was to develop a web application for managing design projects using Next.js for the frontend, Tailwind CSS for styling, and Supabase for the backend. The application allows different types of users (Clients, Project Managers, and Designers) to interact according to their defined roles
 
-First, run the development server:
+## Usage
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Roles and Credentials
+
+Project Manager
+Email: projectm@gmail.com
+Password: projectm
+
+Client
+Email: client@gmail.com
+Password: client
+
+Designer
+Email: designer@gmail.com
+Password: designer
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Client: Create new projects.
+Project Manager: View all projects, Assign projects to designers, Edit and delete projects.
+Designer: View assigned projects.
+```
 
 ## Deploy on Vercel
 
